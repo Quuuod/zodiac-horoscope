@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zodiac-horoscope/static/css/main.841e35d1.css",
+    "main.js": "/zodiac-horoscope/static/js/main.90010003.js",
+    "index.html": "/zodiac-horoscope/index.html",
+    "main.841e35d1.css.map": "/zodiac-horoscope/static/css/main.841e35d1.css.map",
+    "main.90010003.js.map": "/zodiac-horoscope/static/js/main.90010003.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.841e35d1.css",
+    "static/js/main.90010003.js"
+  ]
+}
