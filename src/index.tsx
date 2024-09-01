@@ -5,7 +5,7 @@ import App from './app/App';
 const rootElement = document.getElementById('root');
 if (rootElement) {
 	ReactDOM.createRoot(rootElement).render(
-		<Router>
+		<Router basename='/zodiac-horoscope'>
 			<App />
 		</Router>
 	);
