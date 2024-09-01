@@ -1,5 +1,11 @@
 interface TelegramWebApp {
-	close: () => void;
+	BackButton: {
+		isVisible: boolean;
+		show: () => void;
+		hide: () => void;
+		onClick: (callback: () => void) => void;
+		offClick: (callback: () => void) => void;
+	};
 	themeParams: TelegramThemeParams;
 	colorScheme: string;
 	initDataUnsafe: {

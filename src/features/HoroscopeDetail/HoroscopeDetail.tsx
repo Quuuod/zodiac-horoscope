@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import './HoroscopeDetail.css';
 
 interface HoroscopeDetailProps {
 	sign: string;
@@ -13,9 +14,11 @@ const HoroscopeDetail = ({
 	onClose,
 }: HoroscopeDetailProps) => {
 	const [touchStartX, setTouchStartX] = useState<number | null>(null);
+	const [swipeClass, setSwipeClass] = useState<string>('');
 
 	const handleTouchStart = (e: React.TouchEvent) => {
 		setTouchStartX(e.touches[0].clientX);
+		setSwipeClass('');
 	};
 
 	const handleTouchEnd = (e: React.TouchEvent) => {
@@ -24,14 +27,15 @@ const HoroscopeDetail = ({
 			const swipeDistance = touchEndX - touchStartX;
 
 			if (swipeDistance > 50) {
-				onClose();
+				setSwipeClass('swipe-out');
+				setTimeout(onClose, 300);
 			}
 		}
 	};
 
 	return (
 		<div
-			className='horoscope-detail'
+			className={`horoscope-detail ${swipeClass}`}
 			onTouchStart={handleTouchStart}
 			onTouchEnd={handleTouchEnd}
 		>

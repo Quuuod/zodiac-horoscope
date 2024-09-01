@@ -173,17 +173,17 @@ function App() {
 			);
 		} finally {
 			navigate('/detail');
+			window.Telegram.WebApp.BackButton.onClick(handleCloseDetail);
+			window.Telegram.WebApp.BackButton.show();
 		}
 	};
 
 	const handleCloseDetail = () => {
 		setDetail(null);
 		setSelectedSign('');
-		if (window.Telegram && window.Telegram.WebApp) {
-			window.Telegram.WebApp.close();
-		} else {
-			navigate('/');
-		}
+		window.Telegram.WebApp.BackButton.hide();
+		window.Telegram.WebApp.BackButton.offClick(handleCloseDetail);
+		navigate('/');
 	};
 
 	const appStyles = {
