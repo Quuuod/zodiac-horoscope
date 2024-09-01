@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zodiac-horoscope/static/css/main.55613236.css",
-    "main.js": "/zodiac-horoscope/static/js/main.9ff5c60f.js",
+    "main.js": "/zodiac-horoscope/static/js/main.d16aa4c4.js",
     "index.html": "/zodiac-horoscope/index.html",
     "main.55613236.css.map": "/zodiac-horoscope/static/css/main.55613236.css.map",
-    "main.9ff5c60f.js.map": "/zodiac-horoscope/static/js/main.9ff5c60f.js.map"
+    "main.d16aa4c4.js.map": "/zodiac-horoscope/static/js/main.d16aa4c4.js.map"
   },
   "entrypoints": [
     "static/css/main.55613236.css",
-    "static/js/main.9ff5c60f.js"
+    "static/js/main.d16aa4c4.js"
   ]
 }
