@@ -14,8 +14,7 @@
 ## Установка
 
 1. **Клонируйте репозиторий:**
-   git clone https://github.com/<USERNAME>/<REPOSITORY>.git
-   cd <REPOSITORY>
+   
 Установите зависимости:
 
 npm install
@@ -25,8 +24,6 @@ npm install
 
 Вот как можно дополнить ваш README.md, чтобы включить это:
 
-markdown
-Копировать код
 # Horoscope App
 
 ## Описание
