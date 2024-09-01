@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Horoscope App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание
 
-## Available Scripts
+Это React-приложение для отображения ежедневных гороскопов для 12 знаков зодиака. Приложение поддерживает переключение языков и адаптивный дизайн. Пользователь может просматривать описания гороскопов и использовать функционал Telegram Mini App, чтобы вернуться к списку знаков зодиака.
 
-In the project directory, you can run:
+## Технологии
 
-### `npm start`
+- **React** — для создания пользовательского интерфейса.
+- **React Router** — для маршрутизации.
+- **CSS** — для стилизации.
+- **Telegram Web Apps API** — для интеграции с Telegram.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Установка
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. **Клонируйте репозиторий:**
+   
+Установите зависимости:
 
-### `npm test`
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Да, добавление команды npm install к разделу установки зависимостей в README.md — это важный шаг для настройки проекта. Он сообщает пользователям, как установить все необходимые библиотеки и пакеты для работы приложения.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Вот как можно дополнить ваш README.md, чтобы включить это:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Horoscope App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Описание
 
-### `npm run eject`
+Это React-приложение для отображения ежедневных гороскопов для 12 знаков зодиака. Приложение поддерживает переключение языков и адаптивный дизайн. Пользователь может просматривать описания гороскопов и использовать функционал Telegram Mini App, чтобы вернуться к списку знаков зодиака.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Технологии
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React** — для создания пользовательского интерфейса.
+- **React Router** — для маршрутизации.
+- **CSS** — для стилизации.
+- **Telegram Web Apps API** — для интеграции с Telegram.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Установка
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Клонируйте репозиторий**
 
-## Learn More
+Установите зависимости:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Запустите приложение в режиме разработки с помощью следующей команды:
+npm start
+
+Сборка для продакшн
+
+Чтобы создать оптимизированную версию приложения, используйте следующую команду:
+npm run build
+
+Результат сборки будет находиться в папке build. Эта версия предназначена для размещения на сервере или хостинге.
+
+Структура проекта
+src/ - Исходный код приложения.
+components/ - Компоненты React.
+features/ - Основные функции приложения.
+App.css - Стили для приложения.
+App.tsx - Основной компонент приложения.
+public/ - Статические файлы, такие как index.html.
+package.json - Файл с зависимостями и скриптами.
