@@ -179,7 +179,11 @@ function App() {
 	const handleCloseDetail = () => {
 		setDetail(null);
 		setSelectedSign('');
-		navigate('/');
+		if (window.Telegram && window.Telegram.WebApp) {
+			window.Telegram.WebApp.close();
+		} else {
+			navigate('/');
+		}
 	};
 
 	const appStyles = {

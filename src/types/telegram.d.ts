@@ -1,4 +1,5 @@
 interface TelegramWebApp {
+	close: () => void;
 	themeParams: TelegramThemeParams;
 	colorScheme: string;
 	initDataUnsafe: {
